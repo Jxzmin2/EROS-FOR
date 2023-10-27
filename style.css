@@ -304,7 +304,7 @@ th, td {
 }
 
 .footer {
-    padding: 50px 0;
+    padding: 50px 0 100px 0;
     background-color: #111111;
 }
 
@@ -313,19 +313,38 @@ th, td {
     justify-content: space-between;
 }
 
-.link h3 {
-    font-size: 18px;
+.links h4 {
     color: #FFFFFF;
-    font-family: 'Oswald' , sans-serif;
+    font-size: 18px;
     text-transform: uppercase;
     margin-bottom: 20px;
+
 }
 
-.link a {
-    font-size: 16px;
+.links ul li a {
     color: #DCDCDC;
-    display: block;
-    margin-bottom: 10px;
+    font-size: 16px;
+    margin-bottom: 15px;
+    display: inline-block;
+}
+
+.socials {
+    display: flex;
+}
+
+.social {
+    margin: 0 10px;
+    height: 40px;
+    width: 40px;
+    border: 1px solid #FFFFFF;
+    border-radius: 50%;
+}
+
+.social:hover {
+    background-color: #111111;
+}
+.social img {
+    margin: 8px 0 0 10px;
 }
 
 @media (max-width:991px) {
